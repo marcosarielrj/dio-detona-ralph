@@ -29,7 +29,7 @@ function countDown(){
         clearInterval(state.actions.countDownTimerId);
         clearInterval(state.actions.timerId);
         alert("Game Over! O seu resultado foi: "+ state.values.result);
-        state.values.currentTime = 60;
+        //state.values.currentTime = 60;
     }
 }
 
